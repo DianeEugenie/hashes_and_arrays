@@ -15,6 +15,10 @@ stops.delete_at(2)
 # 7. How many stops there are in the array?
 stops.count #There are 7
 # 8. How many ways can we return `"Falkirk High"` from the array?
+stops[2]
+stops[-5]
+stops.at(2)
+stops.at(-5)
 # 9. Reverse the positions of the stops in the array
+#stops.reverse! #use ! to save the new reversed order into the array
 # 10. Print out all the stops using a for loop
-p stops.count
