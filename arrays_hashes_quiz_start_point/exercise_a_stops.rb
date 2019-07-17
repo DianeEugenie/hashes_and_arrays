@@ -22,3 +22,6 @@ stops.at(-5)
 # 9. Reverse the positions of the stops in the array
 stops.reverse! #use ! to save the new reversed order into the array
 # 10. Print out all the stops using a for loop
+for stop in stops
+  p stop
+end
